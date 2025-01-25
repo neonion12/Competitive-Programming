@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow .cpp files
+!*.cpp
+
+# Allow directories (Git tracks directories implicitly when they contain files)
+!*/
+
+# Ignore .gitignore file itself if you want it excluded from commit
+!.gitignore
